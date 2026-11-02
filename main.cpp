@@ -31,7 +31,7 @@ double division(double numero1, double numero2)
 // Funcion del lider
 void mostrarResultados(double resultado)
 {
-    // Pendiente
+    cout << "El resultado es: " << resultado << endl;
 }
 
 int main()
