@@ -4,17 +4,23 @@ using namespace std;
 // Funciones del miembro 1
 void obtenerNumeros(double &numero1, double &numero2)
 {
-    // Pendiente
+    // pedimos los datos al usuario en consola
+    cout << "ingresa el primer numero: ";
+    cin >> numero1;
+    cout << "ingresa el segundo numero: ";
+    cin >> numero2;
 }
 
 double suma(double numero1, double numero2)
 {
-    return 0;
+    // regresamos el resultado de sumar ambos valores
+    return numero1 + numero2;
 }
 
 double resta(double numero1, double numero2)
 {
-    return 0;
+    // regresamos la resta
+    return numero1 - numero2;
 }
 
 // Funciones del miembro 2
