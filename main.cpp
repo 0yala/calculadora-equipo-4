@@ -20,11 +20,14 @@ double resta(double numero1, double numero2)
 // Funciones del miembro 2
 double multiplicacion(double numero1, double numero2)
 {
-    return 0;
+    return numero1 * numero2;
 }
 
 double division(double numero1, double numero2)
 {
+    if (numero2 != 0){
+        return numero1 / numero2;
+    }
     return 0;
 }
 
